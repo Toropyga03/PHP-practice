@@ -44,7 +44,7 @@ echo "\n";
 function edit(int $index, string $title, string $text, array &$storage): bool
 {
     if (array_key_exists($index, $storage)) { 
-        //
+        //Если передан непустой заголовок - обновляем его
         if (!empty($title)) {
             $storage[$index]['title'] = $title;
         }
