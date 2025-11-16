@@ -178,6 +178,7 @@ class Administrator extends User
     }
 }
 
+/*
 // Демонстрация работы
 echo "=== Демонстрация работы FileStorage ===\n\n";
 
@@ -237,3 +238,4 @@ foreach ($remainingTexts as $text) {
         echo "- {$text->title} (slug: {$text->slug})\n";
     }
 }
+*/
